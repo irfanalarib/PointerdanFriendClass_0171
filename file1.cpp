@@ -14,3 +14,13 @@ class staf{
     int nidn;
 };
 
+int main(){
+    Dosen ds;
+    ds.nama = "giga";
+    ds.tampilNama(); 
+
+    Dosen &dsref = ds;
+    dsref.nama = "joko";
+    cout << "Alamat memori = " << &dsref << endl;
+    dsref.tampilNama();
+}
