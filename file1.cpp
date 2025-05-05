@@ -4,7 +4,7 @@ using namespace std;
 class Dosen{
     public:
     string nama;
-    void tampilNma(){
+    void tampilNama(){
         cout << "namanya adalah " << nama << endl;
     }
 };
@@ -14,8 +14,3 @@ class staf{
     int nidn;
 };
 
-int main(){
-    Dosen ds;
-    ds.nama = "giga";
-    ds.tampilNma(); 
-}
