@@ -13,3 +13,9 @@ class staf{
     public:
     int nidn;
 };
+
+int main(){
+    Dosen ds;
+    ds.nama = "giga";
+    ds.tampilNma(); 
+}
